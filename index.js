@@ -1,10 +1,10 @@
 
 //add numbers to people in line
 function dwarfRollCall(dwarves) {
-  var lineOfDwarves = [];
+  var lineOfDwarves = []
 
   for (var i = 0; i < dwarves.length; i++) {
-    lineOfDwarves += (i + 1) + ". " + dwarves[i] + " ";
+    lineOfDwarves += (i + 1) + ". " + dwarves[i] + " "
   }
 
   lineOfDwarves = lineOfDwarves.slice(0, lineOfDwarves.length)
@@ -13,7 +13,7 @@ function dwarfRollCall(dwarves) {
 
 //modify text
 function summonCaptainPlanet(planeteerCalls){
-  var hearTheCall = [];
+  var hearTheCall = []
 
   for (var i = 0; i < planeteerCalls.length; i++) {
     hearTheCall.push(planeteerCalls[i].toUpperCase + "!")
@@ -23,7 +23,7 @@ function summonCaptainPlanet(planeteerCalls){
 
 //test word length
 function longPlaneteerCalls(words) {
-  var testValidity = [];
+  var testValidity = []
 
   for (var i = 0; i < words.length; i++) {
     if (words.length < 4) {
@@ -36,7 +36,7 @@ function longPlaneteerCalls(words) {
 
 //search for the word
 function findTheCheese (foods) {
-  var nameThatCheese = [];
+  var nameThatCheese = []
 
   for (var i = 0; i < foods.length; i++) {
     nameThatCheese.push(foods[i])

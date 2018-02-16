@@ -6,8 +6,7 @@ function dwarfRollCall(dwarves) {
   for (var i = 0; i < dwarves.length; i++) {
     lineOfDwarves += (i + 1) + ". " + dwarves[i] + " ";
   }
-
-  lineOfDwarves = lineOfDwarves.slice(0, lineOfDwarves.length)
+  lineOfDwarves = lineOfDwarves.splice(0, lineOfDwarves.length - 1)
   return lineOfDwarves
 }
 

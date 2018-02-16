@@ -7,7 +7,6 @@ function dwarfRollCall(dwarves) {
     lineOfDwarves += (i + 1) + ". " + dwarves[i] + " "
   }
 
-  lineOfDwarves = lineOfDwarves.slice(0, lineOfDwarves.length)
   return lineOfDwarves
 }
 

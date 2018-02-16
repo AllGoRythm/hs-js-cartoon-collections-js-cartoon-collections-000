@@ -1,14 +1,17 @@
+
+//add numbers to people in line
 function dwarfRollCall(dwarves) {
   var lineOfDwarves = [];
 
   for (var i = 0; i < dwarves.length; i++) {
-    lineOfDwarves += (i + 1) + "." + " " + dwarves[i] + " ";
+    lineOfDwarves += (i + 1) + ". " + dwarves[i] + " ";
   }
 
   lineOfDwarves = lineOfDwarves.slice(0, lineOfDwarves.length)
   return lineOfDwarves
 }
 
+//modify text
 function summonCaptainPlanet(planeteerCalls){
   var hearTheCall = [];
 
@@ -18,6 +21,7 @@ function summonCaptainPlanet(planeteerCalls){
   return hearTheCall
 }
 
+//test word length
 function longPlaneteerCalls(words) {
   var testValidity = [];
 
@@ -30,6 +34,7 @@ function longPlaneteerCalls(words) {
   }
 }
 
+//search for the word
 function findTheCheese (foods) {
   var nameThatCheese = [];
 

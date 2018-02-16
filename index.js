@@ -36,10 +36,8 @@ function longPlaneteerCalls(words) {
 
 //search for the word
 function findTheCheese (foods) {
-  var nameThatCheese = []
 
   for (var i = 0; i < foods.length; i++) {
-    nameThatCheese.push(foods[i])
 
     switch (foods[i]) {
       case "cheddar":
